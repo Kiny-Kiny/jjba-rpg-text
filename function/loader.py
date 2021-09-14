@@ -1,7 +1,7 @@
 global My_Stand, PlayerIG
 from os import path
 from pickle import load
-def loadGame():
+def loadGame(PlayerIG):
   from main import newGame
   from mainGame import start
   if path.exists('PlayerBackup') == True:
